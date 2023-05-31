@@ -3,7 +3,8 @@
 
 2.We want to create a function that will take in a word and return how many points that word is worth.Define a function called score_word that takes in a parameter word.
 
-3.Inside score_word, create a variable called point_total
+3.Inside score_word, create a variable called point_total.
+
 
 
 
