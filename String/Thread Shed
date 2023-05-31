@@ -36,8 +36,6 @@ The end product we want here is a list that contains an item for each color thre
 
 17.Now, using the string method and the function color_count(), iterate through the list colors and print a sentence that says how many threads of each color were sold today.
 
-18.
-
 """
 
 
