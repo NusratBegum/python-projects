@@ -5,13 +5,24 @@
 
 3.Inside score_word, create a variable called point_total.
 
+4.After defining point_total, create a for loop that goes through the letters in word and adds the point value of each letter to point_total.
+You should get the point value from the letter_to_points dictionary. 
 
+5.After the for loop is finished, return point_total.
 
+6.Let’s test this function! Create a variable called brownie_points and set it equal to the value returned by the score_word() function with an input of "BROWNIE".
 
+7.Create a dictionary called player_to_words that maps players to a list of the words they have played. This table represents the data to transcribe into your dictionary:
 
+8.Iterate through the items in player_to_words. Call each player player and each list of words words.Within your loop, create a variable called player_points and set it to 0.
 
+9.Within the loop, create another loop that goes through each word in words and adds the value of score_word() with word as an input.
 
+10.After the inner loop ends, set the current player value to be a key of player_to_points, with a value of player_points.
 
+11.player_to_points should now contain the mapping of players to how many points they’ve scored. Print this out to see the current standings for this game!If you’ve calculated correctly, wordNerd should be winning by 1 point.
+
+12.If you want extended practice, try to implement some of these ideas with the Python you’ve learned:play_word() — a function that would take in a player and a word, and add that word to the list of words they’ve playedupdate_point_totals() — turn your nested loops into a function that you can call any time a word is playedmake your letter_to_points dictionary able to handle lowercase inputs as well
 
 """
 
